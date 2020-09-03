@@ -359,7 +359,7 @@ local globalKeys =
   -- Emoji Picker
   awful.key(
     {modkey},
-    'a',
+    '.',
     function()
       awful.util.spawn_with_shell('ibus emoji')
     end,
