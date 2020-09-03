@@ -21,7 +21,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 ```
 sudo add-apt-repository ppa:regolith-linux/unstable -y
-sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight kde-spectacle nautilus xfce4-power-manager pnmixer network-manager-applet gnome-polkit -y
+sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance flameshot nautilus xfce4-power-manager pnmixer network-manager-applet gnome-polkit redshift-gtk -y
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
@@ -30,7 +30,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 #### Arch-Based
 
 ```
-yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager -y
+yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot light pnmixer network-manager-applet xfce4-power-manager redshift-gtk -y
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
@@ -51,6 +51,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 - [pnmixer](https://github.com/nicklan/pnmixer) Audio Tray icon that is in debian repositories and is easily installed on arch through AUR.
 - [network-manager-applet](https://gitlab.gnome.org/GNOME/network-manager-applet) nm-applet is a Network Manager Tray display from GNOME.
 - [xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) XFCE4's power manager is excellent and a great way of dealing with sleep, monitor timeout, and other power management features.
+- [redshift-gtk](http://jonls.dk/redshift/) My preferred blue light reducer. Feel free to disable/change it, just remember to edit the apps.lua file 
 
 ### 2) Clone the configuration
 
