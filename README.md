@@ -25,7 +25,7 @@ sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins 
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
-*Note: PPA is for picom since compton is old and hasn't been updated*
+*Note: PPA is for picom since compton is old and hasn't been updated. ONLY USE THE PPA IF YOU ARE NOT RUNNING DEBIAN 11 OR NEWER*
 
 #### Arch-Based
 
