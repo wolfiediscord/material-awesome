@@ -15,7 +15,7 @@ return {
     screenshot = 'flameshot full -p ~/Pictures',
     region_screenshot = 'flameshot gui -p ~/Pictures',
     delayed_screenshot = 'flameshot full -p ~/Pictures -d 5000',
-    browser = 'flatpak run org.mozilla.firefox',
+    browser = 'firefox-esr',
     editor = 'gedit', -- gui text editor
     social = 'flatpak run org.mozilla.Thunderbird',
     game = rofi_command,
