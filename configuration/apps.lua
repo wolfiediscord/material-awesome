@@ -16,15 +16,16 @@ return {
     region_screenshot = 'flameshot gui -p ~/Pictures',
     delayed_screenshot = 'flameshot full -p ~/Pictures -d 5000',
     browser = 'brave-browser',
-    editor = 'gedit', -- gui text editor
-    social = 'flatpak run org.mozilla.Thunderbird',
+    editor = 'mousepad', -- gui text editor
+    social = 'thunderbird-esr',
     game = rofi_command,
-    files = 'nautilus',
+    files = 'thundar',
     music = rofi_command 
   },
   -- List of apps to start once on start-up
-  run_on_start_up = {
-    'picom --config ' .. filesystem.get_configuration_dir() .. '/configuration/picom.conf',
+  run_on_start_up = { 
+    'compton',
+    -- 'picom --config ' .. filesystem.get_configuration_dir() .. '/configuration/picom.conf',
     'nm-applet --indicator', -- wifi
     'pnmixer', -- shows an audiocontrol applet in systray when installed.
     --'blueberry-tray', -- Bluetooth tray icon
