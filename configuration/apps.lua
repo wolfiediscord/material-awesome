@@ -19,7 +19,7 @@ return {
     editor = 'mousepad', -- gui text editor
     social = 'thunderbird',
     game = rofi_command,
-    files = 'thundar',
+    files = 'thunar',
     music = rofi_command 
   },
   -- List of apps to start once on start-up
