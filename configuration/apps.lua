@@ -17,7 +17,7 @@ return {
     delayed_screenshot = 'flameshot full -p ~/Pictures -d 5000',
     browser = 'brave-browser',
     editor = 'mousepad', -- gui text editor
-    social = 'thunderbird-esr',
+    social = 'thunderbird',
     game = rofi_command,
     files = 'thundar',
     music = rofi_command 
