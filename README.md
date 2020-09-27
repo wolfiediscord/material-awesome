@@ -2,7 +2,7 @@
 ### Original work by PapyElGringo, official development seem to have moved to [material-shell](https://github.com/PapyElGringo/material-shell)
 ### Fork from ChrisTitusTech
 
-Note: This fork changes some defaults, such as making the browser firefox.
+Note: This fork changes some defaults and adds some themes.
 
 An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) following the [Material Design guidelines](https://material.io) with a performant opiniated mouse/keyboard workflow to increase daily productivity and comfort.
 
@@ -21,7 +21,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 ```
 sudo add-apt-repository ppa:regolith-linux/unstable -y
-sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance flameshot nautilus xfce4-power-manager pnmixer network-manager-applet gnome-polkit redshift-gtk -y
+sudo apt install awesome fonts-roboto rofi picom i3lock-fancy qt5-style-plugins materia-gtk-theme lxappearance flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome lxpolkit redshift-gtk -y
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
@@ -30,7 +30,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 #### Arch-Based
 
 ```
-yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot light pnmixer network-manager-applet xfce4-power-manager redshift-gtk -y
+yay -S awesome rofi picom i3lock-fancy ttf-roboto lxsession materia-gtk-theme lxappearance flameshot light pnmixer network-manager-applet xfce4-power-manager redshift-gtk -y
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
@@ -41,8 +41,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher - universal install: rofi
 - [picom](https://github.com/yshui/picom) for the compositor (blur and animations) universal install: picom - Debian users need PPA (`sudo add-apt-repository ppa:regolith-linux/unstable`)
 - [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application universal install: i3lock-fancy
-- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard package: xclip
-- [gnome-polkit] recommend using the gnome-polkit as it integrates nicely for elevating programs that need root access
+- [lxpolkit] recommend using the lxpolkit as it integrates nicely for elevating programs that need root access and looks good
 - [Materia](https://github.com/nana-4/materia-theme) as GTK theme - Arch Install: materia-theme debian: materia-gtk-theme
 - [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme Universal Install: wget -qO- https://git.io/papirus-icon-theme-install | sh
 - [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
