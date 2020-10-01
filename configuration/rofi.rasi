@@ -13,7 +13,7 @@ configuration {
 * {
 	background-color:            #000000;
 	text-color:                  #d3d7cf;
-	selbg:                       #FF5722;
+	selbg:                       #1976D2;
 	actbg:                       #393939;
 	urgbg:                       #e53935;
 	winbg:			     #26c6da;
